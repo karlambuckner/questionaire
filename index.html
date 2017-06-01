@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+<body>
+  <h1>Survey</h1>
+
+  <p>Please fill out the following survey to let us know more about you!</p>
+
+  <p>1. What is your name?</p>
+
+  <form>
+      <div class="form-group">
+      <label for="person">Name</label>
+      <input id="person" class="form-control" type="text">
+      </div>
+    </form>
+
+<p>2. What is your favorite color?</p>
+  <div class="form-group">
+    <label for="color">What is your favorite color?</label>
+    <input id="color" class="form-control" type="color">
+  </div>
+
+<p>3. What is your favorite type of food?<p>
+  <select class="form-control" id="food">
+    <option>Chinese</option>
+    <option>Japanese</option>
+    <option>Italian</option>
+    <option>French</option>
+    <option>German</option>
+    <option>Thai</option>
+    <option>Mexican</option>
+    <option>Other</option>
+  </select>
+
+  <p>4. What is your favorite thing to drink?</p>
+<div class="beverage">
+  <label>
+    <input type="radio" name="drink" value="Coffee" checked>
+    Coffee
+  </label>
+</div>
+<div class="beverage">
+  <label>
+    <input type="radio" name="drink" value="Tea">
+    Tea
+  </label>
+</div>
+<div class="beverage">
+  <label>
+    <input type="radio" name="drink" value="Water">
+    Water
+  </label>
+<div class="beverage">
+  <label>
+    <input type="radio" name="drink" value="Beer/Wine/Cocktails">
+      Beer/Wine/Cocktails
+  </label>
+<div class="beverage">
+  <label>
+    <input type="radio" name="drink" value="Juice">
+        Juice
+  </label>
+<div class="beverage">
+  <label>
+    <input type="radio" name="drink" value="Milk">
+          Milk
+  </label>
+<div class="beverage">
+  <label>
+    <input type="radio" name="drink" value="Other">
+            Other
+  </label>
+
+  <p>5. What is your date of birth?</p>
+
+  <div class="form-group">
+  <label for="born">Date of birth:</label>
+  <input id="born" class="form-control" type="date">
+</div>
+</div>
+</body>
+</html>
